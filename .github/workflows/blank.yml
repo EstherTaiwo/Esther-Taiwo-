@@ -1,0 +1,59 @@
+Hello 👋
+
+Welcome-
+I'm Esther Taiwo,
+
+A seasoned Virtual Assistant with a strong foundation in Virology, bringing a unique blend of scientific rigor and administrative expertise to drive business growth and productivity.
+
+I am developing my data analysis capabilities, currently proficient in Excel and SQL with a focus on continuous learning and growth
+
+My expertise includes:
+
+Email management and optimization
+
+Social media coordination and content creation
+
+Research projects and report writing
+
+Meeting setting and note taking
+
+With a keen eye for detail and a flair for problem-solving, I help clients achieve their goals and thrive in their industries.
+
+-Let's collaborate and take your business to the next level
+
+(Connect with me on LinkedIn) https://www.linkedin.com/in/esther-taiwo-354216228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
