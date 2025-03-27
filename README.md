@@ -1,10 +1,10 @@
 # Project title:  Capstone project 
 
 ---
-# Project Objective: To analize a sales datasets, identify products with the best figures and sales performance across regions .
+# Project Objective: To analize sales datasets, identify products with the best figures and sales performance across regions .
 
 ---
-# Data sourcing: Pivot datasets 
+# Data source: Pivot datasets 
 
 ---
 # Tools Used: Ms. Excel 
